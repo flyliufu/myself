@@ -1,0 +1,28 @@
+.self-table {
+    border-collapse: collapse;
+    color: #666;
+    font-size: 1rem;
+    border: .05rem solid #dddddd;
+    width: 98%;
+    margin: .5rem;
+    line-height: 2.5rem;
+}
+
+.self-table tr td {
+    padding-left: .5rem;
+    border: .05rem solid #dddddd;
+}
+
+tr td:first-child {
+    width: 15%;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr td:last-child {
+    color: #000;
+}
+
+.td-none {
+    display: none;
+}
